@@ -1,4 +1,3 @@
-
 function selectionSort(arr){
     let n = arr.length
     for(let i = 0; i < n - 1; i++){
@@ -13,8 +12,7 @@ function selectionSort(arr){
             let temp = arr[i];
             arr[i] = arr[lowest]
             arr[lowest] = temp 
-        }
-       
+        } 
     }
     return arr
 }
