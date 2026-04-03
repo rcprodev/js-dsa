@@ -17,8 +17,8 @@ class SinglyLinkedList {
         this.head = null
         this.tail = null
         this.length = 0
-
     }
+
     push(val){
       let newNode = new Node(val)
       if(!this.head){
@@ -30,8 +30,8 @@ class SinglyLinkedList {
       }
       this.length++
       return this
-      
     }
+
 }
 
 
