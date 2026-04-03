@@ -56,6 +56,8 @@ function reverseString(str){
         let temp = arr[left]
         arr[left] = arr[right]
         arr[right] = temp 
+        // another way to swap
+        // [arr[left], arr[right]] = [arr[right], arr[left]]
        
         left++;
         right--;
