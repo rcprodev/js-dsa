@@ -1,3 +1,8 @@
+// bubble sort
+
+// Pattern: comparision + swapping
+
+
 function bubbleSort(arr){
     let n = arr.length
     for(let i = 0; i < n - 1; i++){
@@ -16,6 +21,15 @@ function bubbleSort(arr){
     return arr
 }
 
-let arr = [2,44,12,23,11,7]
-const result = bubbleSort(arr)
-console.log(result)
+/* 
+Time complexity : 
+Best case - O(n) (already sorted with optimization)
+Average - O(n2)
+Worst - O(n2)
+*/
+
+export default bubbleSort
+
+// let arr = [2,44,12,23,11,7]
+// const result = bubbleSort(arr)
+// console.log(result)
