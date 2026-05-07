@@ -1,11 +1,5 @@
-
-
 Brute Force
 Traversal
-
-
-
-
 
 List of patterns
 
@@ -16,7 +10,6 @@ List of patterns
 5. Frequency Counter
 6. Prefix Sum
 
-
 ---
 
 1. Identify the pattern
@@ -25,10 +18,8 @@ List of patterns
 - "unique elements"
 - "distinct values"
 
-  
 sorted array -> two pointer pattern
 unsorted array -> hashing pattern
-
 
 When you hear:
 
