@@ -1,4 +1,4 @@
-// Find the Maximum number in an array.
+// Problem: Find the Maximum number in an array.
 
 //  using Math.max
 
@@ -6,42 +6,31 @@
     return Math.max(...arr)
 } */
 
-
 // using reduce
 
-function findMax(arr){
+function findMax(arr) {
+  if (arr.length === 0) return null;
 
-     if(arr.length === 0) return null;
-
-    return arr.reduce((max, current) => {
-        return current > max ? current : max;
-    })
+  return arr.reduce((max, current) => {
+    return current > max ? current : max;
+  });
 }
-
-
-
-
-
 
 // pattern : Linear Traversal (or Linear Scan)
 
+function findMax(arr) {
+  if (arr.length === 0) return null;
 
-function findMax(arr){
+  let max = arr[0];
 
-    if(arr.length === 0) return null;
- 
-    let max = arr[0];
-
-    for(let i = 1; i < arr.length; i++){
-        if(max < arr[i]){
-            max = arr[i]
-        }
+  for (let i = 1; i < arr.length; i++) {
+    if (max < arr[i]) {
+      max = arr[i];
     }
+  }
 
-    return max;
+  return max;
 }
-
-
 
 /* 
 
@@ -55,6 +44,4 @@ Space complexity: loop -> O(1)
 const result = findMax(arr)
 console.log(result); */
 
-
 export default findMax;
-

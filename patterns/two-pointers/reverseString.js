@@ -5,7 +5,7 @@
     return reversed;
 } */
 
-// Pattern : Two Pointer Pattern (sReverse Traversal variant)
+// Pattern : Two Pointer (sReverse Traversal variant)
 
 /*
  we use only one loop (or) traverse the string once.

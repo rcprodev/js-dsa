@@ -1,3 +1,5 @@
-import countDown from "./patterns/core/countDown.js";
+import moveZeros from "./patterns/two-pointers/moveZeros.js";
 
-countDown(5);
+let arr = [0, 3, 0, 2, 14, 5];
+
+console.log(moveZeros(arr));
