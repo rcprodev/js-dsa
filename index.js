@@ -1,5 +1,5 @@
-import moveZeros from "./patterns/two-pointers/moveZeros.js";
+import twoSum from "./dsa-patterns/hashing/twoSum.js";
 
-let arr = [0, 3, 0, 2, 14, 5];
-
-console.log(moveZeros(arr));
+let nums = [3, 2, 4];
+let target = 6;
+console.log(twoSum(nums, target));

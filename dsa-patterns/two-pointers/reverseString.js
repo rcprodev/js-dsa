@@ -60,7 +60,8 @@ function reverseString(str) {
 }
 
 /* optimal time complexity is O(n)
-since strings are immutable in javascript, we use a two-pointer approach on an array for better performance than repeated concatenation
+since strings are immutable in javascript,
+ we use a two-pointer approach on an array for better performance than repeated concatenation
  
 In Javascript you cannot truly do O(1) space for string reverse (because strings are immutabel)
 */

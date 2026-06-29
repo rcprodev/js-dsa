@@ -1,0 +1,1 @@
+// Pattern: sliding window (advanced)
