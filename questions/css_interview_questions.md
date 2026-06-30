@@ -2,7 +2,7 @@ Here are the **top 30 most frequently asked CSS interview questions** for fronte
 
 ## Top 30 CSS Interview Questions
 
-1. What is CSS, and why is it used?
+1. [What is CSS, and why is it used?] (#q1)
 
 2. What are the different ways to add CSS to an HTML page?
 
