@@ -1,5 +1,6 @@
 Brute Force
 Traversal
+Recursion
 
 List of patterns
 
