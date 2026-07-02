@@ -1,7 +1,5 @@
-import DoublyLinkedList from "./data-structures/DoublyLinkedList.js";
-const dll = new DoublyLinkedList();
-dll.push(30);
-dll.push(40);
-dll.push(50);
-const result = dll.find(51);
-console.log(result);
+import binarySearch from "./algorithms/searching/binarySearch.js";
+
+const arr = [12, 14, 19, 23, 25, 31];
+const target = 10;
+console.log(binarySearch(arr, target));
